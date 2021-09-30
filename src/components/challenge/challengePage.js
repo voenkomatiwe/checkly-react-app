@@ -1,11 +1,13 @@
 import React from 'react'
-import ChecklyLogo from '../checklyLogo'
 
+import logo from '../../css/images/logoCheckly.png'
 function ChallengePage() {
   return (
     <div className='container'>
       <div className='header'>
-        <ChecklyLogo />
+        <div className='checkly-logo '>
+          <img className='logo' src={logo} alt='logo' />
+        </div>
       </div>
       <div className='progress'>
         <div className=''></div>

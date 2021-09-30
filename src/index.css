@@ -1,5 +1,6 @@
 .container {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .header {
@@ -19,20 +20,19 @@
   height: 31.29px;
 }
 
-.div-href {
+.navbar {
   display: flex;
   margin: 0;
   padding: 0;
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 24px;
 }
 
-.div-href a {
+.navbar a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: black;
   text-align: center;
   padding: 14px 40px;
   text-decoration: none;
@@ -53,27 +53,24 @@
   margin-top: 70px;
 }
 
-.first-middle-text1 {
-  font-family: 'Oxygen', sans-serif;
+.first-middle-text {
   font-style: normal;
   font-weight: bold;
-  font-size: 88px;
+  font-size: 5.5rem;
   line-height: 72px;
 }
 
-.first-middle-text2 {
-  font-family: 'Oxygen', sans-serif;
+.second-middle-text {
   font-style: normal;
   font-weight: bold;
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 72px;
 }
 
-.first-middle-text3 {
-  font-family: 'Oxygen', sans-serif;
+.third-middle-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: -0.02em;
   color: #66645e;
 }
@@ -87,17 +84,16 @@
   border: none;
   border-radius: 8px;
 }
-/* расположение кнопки говно */
+
 .btn-first {
   position: relative;
   margin: 52px 0;
 }
 
 .text-btn {
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -113,14 +109,13 @@
   margin: 100px;
 }
 
-.first-group {
+.first-block {
   display: flex;
   justify-content: center;
 
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 32px;
 
   text-align: center;
@@ -135,12 +130,12 @@
   top: 731px;
 }
 
-.first-group-text {
+.first-group {
   display: flex;
   flex-direction: row;
 }
 
-.first-group-text1 {
+.first-group-text {
   border: 1px solid #66645e;
   box-sizing: border-box;
   border-radius: 12px;
@@ -149,11 +144,11 @@
   margin: 35px 10px;
 }
 
-.first-group-text1 p {
+.first-group-text p {
   margin-top: 80px;
 }
 
-.first-group-text2 {
+.second-group-text {
   border: 1px solid #66645e;
   box-sizing: border-box;
   border-radius: 12px;
@@ -162,22 +157,23 @@
   margin: 35px 10px;
 }
 
-.first-group-text2 p {
+.second-group-text p {
   margin-top: 80px;
 }
 
 .btn-second {
-  position: relative;
-  left: calc(50% - 275px / 2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
   position: absolute;
+  background: #ffd875;
   left: 0;
   width: 100%;
   height: 100%;
   height: 165px;
-  background: #ffd875;
   border-top: 1px solid;
 }
 
@@ -187,10 +183,9 @@
 }
 
 .text-footer {
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 26px;
 }
 .first-footer-group {
@@ -219,10 +214,9 @@
 }
 
 .title-question {
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 40px;
   text-align: center;
 }
@@ -249,20 +243,18 @@
 }
 
 .first-text-block {
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 40px;
   text-align: center;
   margin: 20px;
 }
 
 .second-text-block {
-  font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 25px;
   text-align: center;
 }
